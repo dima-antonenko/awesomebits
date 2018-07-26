@@ -15,7 +15,7 @@
 
   <div class="images_gallery" itemscope itemtype="http://schema.org/ImageGallery">
     <% @project.display_images.reverse_each do |image| %>
-      <%  image_url = Rails.env.development? ? image.url : image.url(:main)  %>
+      <% image_url = Rails.env.development? ? image.url : image.url(:main) %>
       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="<%= image_url %>" itemprop="contentUrl" data-size="1024x1024">
           <img src="<%= image_url %>" itemprop="thumbnail" />
