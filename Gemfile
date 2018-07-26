@@ -16,7 +16,7 @@ end
 gem 'country_select'
 gem 'pg', '~> 0.13.2'
 gem 'texticle', '~> 2.0', :require => 'texticle/rails'
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 2.1.0'
 gem 'clearance', '~> 0.16.2'
 gem 'thin'
 gem 'sass'
@@ -40,6 +40,7 @@ gem 'magnific-popup-rails'
 gem 'rack-attack'
 gem 'rack-ssl-enforcer'
 gem 'rollbar'
+gem 'photoswipe-rails'
 
 group :development do
   gem "letter_opener"

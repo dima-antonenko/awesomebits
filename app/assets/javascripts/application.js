@@ -8,4 +8,5 @@
 //= require jquery_ujs
 //= require jquery-ui
 //= require magnific-popup
+//= require photoswipe
 //= require_tree .
